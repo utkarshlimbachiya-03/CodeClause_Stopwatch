@@ -1,0 +1,74 @@
+:root{
+	--button: crimson;
+	--background: black;
+	--display: darkgrey;
+	--numbers: black;
+
+
+}
+
+* {
+	box-sizing: border-box ;
+	margin: 0;
+	font-family: 'Fira sans',sans-serif;
+
+
+}
+
+body{
+
+	background: black;
+	color: black;
+}
+
+.watch{
+	text-align:center;
+	background-color: darkgrey;
+	width: 100%;
+	max-width: 360px;
+	margin: 4rem auto;
+	padding: 1rem 2rem;
+	border-radius: 1rem;
+}
+
+.time{
+	font-size: 4rem;
+	font-weight: 300;
+	margin-bottom: 1rem;
+}
+
+.controls{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.controls button{
+	appearance: none;
+	background:none ;
+	border: none;
+	outline: none;
+	
+
+
+	cursor: pointer;
+
+	color: black;
+	font-size: 1.125rem;
+	background-color: crimson;
+	margin: 0 0.5rem;
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+
+	transition: 0.4s;
+
+
+}
+button:hover{
+	opacity: 0.7;
+
+}
+button:active{
+	background-color: black;
+
+}
